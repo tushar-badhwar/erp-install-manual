@@ -13,7 +13,7 @@ git clone https://github.com/tushar-badhwar/erp-install-manual.git
 
     navigate to the folder:
 
-cd erpnext_quick_install
+cd erp-install-manual
 
     Make the script executable
 
