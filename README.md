@@ -17,8 +17,8 @@ cd erp-install-manual
 
     Make the script executable
 
-sudo chmod +x erpnext_install.sh
+sudo chmod +x erp_install.sh
 
     Run the script:
 
-source erpnext_install.sh
+source erp_install.sh
