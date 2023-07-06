@@ -1,6 +1,6 @@
 Auto Install Script for ERPNext
 
-(Almost) No-interactive script for ERPNext V14 installation
+(Almost) No-interactive script for ERPNext V13 installation
 
 This is an almost no-interactive script for installing ERPNext Version 14. You can set up either development or production with very minimal interaction.
 How To:
@@ -9,7 +9,7 @@ To use this script, follow these steps:
 
     Clone the Repo:
 
-git clone https://github.com/tushar-badhwar/erp-install-manual/blob/main/erp_install.sh
+git clone https://github.com/tushar-badhwar/erp-install-manual.git
 
     navigate to the folder:
 
