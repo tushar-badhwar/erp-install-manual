@@ -9,7 +9,7 @@ To use this script, follow these steps:
 
     Clone the Repo:
 
-git clone https://github.com/flexcomng/erpnext_quick_install.git
+git clone https://github.com/tushar-badhwar/erp-install-manual/blob/main/erp_install.sh
 
     navigate to the folder:
 
