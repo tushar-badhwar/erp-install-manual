@@ -2,7 +2,7 @@ Auto Install Script for ERPNext
 
 (Almost) No-interactive script for ERPNext V13 installation
 
-This is an almost no-interactive script for installing ERPNext Version 14. You can set up either development or production with very minimal interaction.
+This is an almost no-interactive script for installing ERPNext Version 13. You can set up either development or production with very minimal interaction.
 How To:
 
 To use this script, follow these steps:
