@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
 # # Setting error handler
-handle_error() {
-    local line=$1
-    local exit_code=$?
-    echo "An error occurred on line $line with exit status $exit_code"
-    exit $exit_code
-}
+# handle_error() {
+#     local line=$1
+#     local exit_code=$?
+#     echo "An error occurred on line $line with exit status $exit_code"
+#     exit $exit_code
+# }
 
-trap 'handle_error $LINENO' ERR
-set -e
+# trap 'handle_error $LINENO' ERR
+# set -e
 
 # Retrieve server IP
 server_ip=$(hostname -I | awk '{print $1}')
@@ -264,7 +264,7 @@ sudo pip3 install frappe-bench
 #Initiate bench in frappe-bench folder, but get a supervisor can't restart bench error...
 echo -e "${YELLOW}Initialising bench in frappe-bench folder.${NC}" 
 echo -e "${LIGHT_BLUE}If you get a restart failed, don't worry, we will resolve that later.${NC}"
-sudo bench init frappe-bench --version version-13 --verbose --install-app erpnext --version version-13
+bench init frappe-bench --version version-14 --verbose --install-app erpnext --version version-14
 echo -e "${GREEN}Bench installation complete!${NC}"
 sleep 1
 
